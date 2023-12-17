@@ -2,7 +2,7 @@ $(function(){
 	// 햄버거 메뉴
 	$(".btn_menu").on("click", function(){
         $(this).toggleClass("on");
-		$("header").toggleClass("active");
+		$("html,body").toggleClass("menu_on");
     }); 
 
 	$(".tab_btn button").on("click", function(){

@@ -321,8 +321,16 @@ footer .f_btn a+a{background: #2F3B6B url(../images/img_footer02.svg) no-repeat 
     .header_inner .btn_chat{font-size: 15px;background-size: 22px auto;padding-left: 28px;}
     .header_inner .btn_menu{display: block;}
 
+    html.menu_on,
+    body.menu_on{overflow: hidden;}
+
+    body.menu_on .header_inner .grp_link{display: flex;flex-direction: column;position: absolute;top:60px;left:0;right:0;bottom:0;z-index: 1000;box-sizing: border-box;}
+    body.menu_on .header_inner .grp_link a{margin:0;padding: 12px 20px;background: #F1F3F5;}
+    body.menu_on .header_inner .grp_link a:first-child{padding-top: 20px;}
+    body.menu_on .header_inner .grp_link a:last-child{padding-bottom: 20px;}
+
     .section_inner{max-width: 500px;}
-    .sec_main01{padding: 10px 20px;}
+    .sec_main01{padding: 10px 20px;max-width: 500px;margin: 0 auto;box-sizing: border-box;}
     .box_layout{flex-direction: column;}
     .sec_main01 .box_layout > .img{width: 100%;height: auto;}
     .sec_main01 .box_layout > .img img{height: auto;}
@@ -335,6 +343,7 @@ footer .f_btn a+a{background: #2F3B6B url(../images/img_footer02.svg) no-repeat 
     
     .wrap.main > article{padding:0 20px;max-width: 500px;}
     .wrap.main > article h2{margin-top: 20px;}
+    article{max-width: 500px;padding: 0 20px;}
     article h2{font-size: 20px;}
 
     .list_main{flex-direction: column;}
@@ -347,7 +356,43 @@ footer .f_btn a+a{background: #2F3B6B url(../images/img_footer02.svg) no-repeat 
     .list_main.type02 > li a{background: none !important;}
     .list_main.type02 > li p.txt_sub{font-size: 14px;}
 
-    .grid_main{}
+    .grid_main{max-width: 500px;grid-template-columns: 1fr;grid-template-rows: auto;gap: 30px;}
+    .grid_main article h2{}
+    
+    .box_logo{grid-column:1/1;grid-row: 3/3;}
+    .box_logo .list_logo{height: auto;}
+    .box_logo .list_logo li{height: 136px;}
+    .box_logo .list_logo li p{font-size: 22px;}
+
+    .list_main.type03 > li p.tit{margin-top: 10px;}
+    .list_main.type04 > li p.arrow{margin-bottom: 10px;}
+
+    .list_customer{height: auto;padding: 20px 0;flex-wrap: wrap;}
+    .list_customer h2{width: 100%;flex:none;font-size: 22px;margin-bottom: 20px;}
+    .list_customer > *+*:after{display: none;}
+    .list_customer .grp_call .call{font-size: 24px;}
+    .list_customer .grp_call .time{font-size: 13px;}
+    .list_customer .grp_talk p{font-size: 16px;}
+    .list_customer .grp_talk a{font-size: 15px;width: 140px;}
+    
+    footer{margin-top: 30px;}
+    footer .footer_inner{padding: 20px 10px;flex-direction: column;max-width: 500px;box-sizing: border-box;}
+    footer .list_footer{justify-content: center;}
+    footer .list_footer li a{font-size: 14px;}
+    footer .info .f_logo{margin-top: 230px;}
+    footer .info .f_logo:before{width: 16px;height: 16px;background-size: contain;margin-right: 5px;}
+    footer .info p,
+    footer .info a{font-size: 13px;}
+    footer .info p{display: flex;flex-wrap: wrap;}
+    footer .info p span:last-child{margin-left: 0;padding-left: 0;width: 100%;}
+    footer .info p span:last-child:before{display: none;}
+
+    footer .f_btn{position: absolute;top: 66px;left: 20px;right:20px;}
+    footer .f_btn a{width: 100%;height: 100px;}
+    footer .f_btn a+a{margin-top: 10px;}
+
+
+    
 }
 
 
