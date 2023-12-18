@@ -445,8 +445,8 @@ footer .f_btn a+a{background: #2F3B6B url(../images/img_footer02.svg) no-repeat 
 
 
     /* 서브페이지 */
-    .tab_wrap .section_inner{padding:20px 0 10px;max-width: 540px;}
-    .tab_wrap ul{height: 126px;gap: 10px;overflow: auto;padding:0 20px 10px;}
+    .tab_wrap .section_inner{padding:20px 0 10px;}
+    .tab_wrap ul{height: 126px;gap: 10px;overflow: auto;padding:0 20px 10px;max-width: 500px;box-sizing: border-box;}
     .tab_wrap ul li{flex:none;width: 130px;}
     .tab_wrap ul li a::before{width: 45px;height: 45px;background-size: 45px !important;}
     .tab_wrap ul li a .grp_badge{margin-top: 6px;flex-wrap: wrap;align-items: center;justify-content: center;gap:2px}
