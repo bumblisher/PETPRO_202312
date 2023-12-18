@@ -160,9 +160,9 @@ article h2{margin-bottom: 14px;font-size: 26px;font-weight: 700;line-height: 140
 .grid_main article{width: 100%;}
 .list_main.type03 > li{height:320px;}
 .list_main.type03 > li a{background: #F1F3F5;}
-.list_main.type03 > li:nth-child(1) a{background:#F1F3F5 url(../images/img_main03_1.svg) no-repeat right 30px bottom 30px;}
-.list_main.type03 > li:nth-child(2) a{background:#F1F3F5 url(../images/img_main03_2.svg) no-repeat right 30px bottom 30px;}
-.list_main.type03 > li:nth-child(3) a{background:#F1F3F5 url(../images/img_main03_3.svg) no-repeat right 30px bottom 30px;}
+.list_main.type03 > li:nth-child(1) a{background:#F1F3F5 url(../images/img_main03_1.png) no-repeat right 30px bottom 30px;background-size: 140px;}
+.list_main.type03 > li:nth-child(2) a{background:#F1F3F5 url(../images/img_main03_2.png) no-repeat right 30px bottom 30px;background-size: 115px;}
+.list_main.type03 > li:nth-child(3) a{background:#F1F3F5 url(../images/img_main03_3.png) no-repeat right 30px bottom 30px;background-size: 140px;}
 .list_main.type03 > li p.tit{margin-top: 15px;}
 
 .list_main.type04 > li{height:230px;}
