@@ -22,7 +22,7 @@
                 <h1 class="logo"><a href="index.html">PETPRO</a></h1>
                 <div class="right">
                     <nav class="grp_link">
-                        <a href="compare01-1.html" id="">펫보험 비교</a>
+                        <a href="compare01-1.html" id="" class="on">펫보험 비교</a>
                         <a href="#" id="">보상문의</a>
                         <a href="#" id="">광고파트너</a>
                         <a href="#" id="">사은품</a>
@@ -97,43 +97,68 @@
                         <p>Lorem ipsum dolor sit amet consectetur. Feugiat nisi vehicula ultricies tortor scelerisque tristique tortor. Nisl cursus facilisis tellus commodo faucibus. Porta condimentum neque nibh at vel. Pellentesque gravida et vitae ultricies mauris non donec mi est. Quis magna amet viverra auctor ut et justo. Pellentesque enim est lacus vulputate orci feugiat elementum. Ut tristique metus et leo sapien est amet dolor. Lorem porttitor suscipit volutpat viverra leo odio sed eu tellus.</p>
                     </div>
                     <div class="box_form">
-                        <h2>우리아이 보험료 비교 신청하기</h2>
+                        <div class="grp_badge">
+                            <span class="badge">의료실비</span>
+                        </div>
+                        <h2>펫보험 비교하기</h2>
                         <p class="tit_sub">펫보험을 상세하게 비교해 드릴게요.<br>
                             우리 아이 정보를 알려주세요.</p>
                         <div class="grp_form">
-                            <p class="tit">사랑하는 우리 아이는</p>
-                            <div class="grp_radio img">
+                            <p class="tit">우리 아이가 최근 3개월 이내에 병원을 다녀왔나요?</p>
+                            <div class="grp_radio">
                                 <input type="radio" name="radio01" id="radio01" checked>
-                                <label for="radio01">강아지</label>
+                                <label for="radio01">네</label>
                                 <input type="radio" name="radio01" id="radio02">
-                                <label for="radio02">고양이</label>
+                                <label for="radio02">아니오</label>
                             </div>
                         </div>
                         <div class="grp_form">
-                            <p class="tit">성별</p>
+                            <p class="tit">우리 아이가 최근 1년 이내에 수술을 받은적이 있나요?</p>
                             <div class="grp_radio">
                                 <input type="radio" name="radio02" id="radio03" checked>
-                                <label for="radio03">남자 아이</label>
+                                <label for="radio03">네</label>
                                 <input type="radio" name="radio02" id="radio04">
-                                <label for="radio04">여자 아이</label>
+                                <label for="radio04">아니오</label>
                             </div>
                         </div>
                         <div class="grp_form">
-                            <p class="tit">생년월일</p>
-                            <div class="grp_input">
-                                <input type="text" placeholder="생년월일 8자리를 입력해 주세요.">
+                            <p class="tit">우리 아이가 슬개골 및 고관절 수술을 받은 적이 있나요?</p>
+                            <div class="grp_radio">
+                                <input type="radio" name="radio03" id="radio05" checked>
+                                <label for="radio05">네</label>
+                                <input type="radio" name="radio03" id="radio06">
+                                <label for="radio06">아니오</label>
                             </div>
                         </div>
                         <div class="grp_form">
-                            <p class="tit">품종</p>
+                            <p class="tit">상담방법</p>
                             <div class="grp_input">
-                                <input type="text" placeholder="품종을 입력해 주세요. (예: 푸들)">
+                                <select name="" id="">
+                                    <option value="">카카오톡</option>
+                                    <option value="">카카오톡2</option>
+                                    <option value="">카카오톡3</option>
+                                </select>
                             </div>
                         </div>
-                        <div class="grp_form">
-                            <p class="tit">보호자 연락처</p>
-                            <div class="grp_input">
-                                <input type="text" placeholder="연락처를 입력해 주세요.">
+                        <div class="grp_flex">
+                            <div class="grp_form cal">
+                                <p class="tit">상담일자</p>
+                                <div class="grp_input">
+                                    <div class="grp_cal">
+                                        <input type="text">
+                                        <button></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grp_form">
+                                <p class="tit">상담시간</p>
+                                <div class="grp_input">
+                                    <select name="" id="">
+                                        <option value="">오전 10시-12시</option>
+                                        <option value="">오전 10시-12시</option>
+                                        <option value="">오전 10시-12시</option>
+                                    </select>
+                                </div>
                             </div>
                         </div>
                         <div class="grp_form check">
@@ -144,7 +169,10 @@
                                 <a href="#">자세히보기</a>
                             </div>
                         </div>
-                        <button>다음</button>
+                        <div class="grp_btn">
+                            <button class="btn_cm gray">이전</button>
+                            <button class="btn_cm">신청하기</button>
+                        </div>
                     </div>
                 </div>
             </div>
