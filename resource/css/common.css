@@ -218,7 +218,30 @@ footer .f_btn a+a{background: #2F3B6B url(../images/img_footer02.svg) no-repeat 
 /* sub */
 .tab_wrap{background: #F1F3F5;}
 .tab_wrap .section_inner{padding:50px 0}
-.tab_wrap ul{display: flex;align-items: center;}
+.tab_wrap ul{display: flex;align-items: center;height: 200px;gap: 20px;}
+.tab_wrap ul li{height: 100%;flex:1;}
+.tab_wrap ul li a{display: flex;flex-direction: column;align-items: center;justify-content: center;height: 100%;color:#ADB5BD;text-decoration: none;background-color: #fff;border-radius: 10px;box-sizing: border-box;}
+.tab_wrap ul li a::before{content: '';display: block;width: 60px;height: 60px;}
+.tab_wrap ul li:nth-child(1) a::before{background: url(../images/ico_tabwrap01.png) center no-repeat; background-size: 60px;}
+.tab_wrap ul li:nth-child(2) a::before{background: url(../images/ico_tabwrap02.png) center no-repeat; background-size: 60px;}
+.tab_wrap ul li:nth-child(3) a::before{background: url(../images/ico_tabwrap03.png) center no-repeat; background-size: 60px;}
+.tab_wrap ul li:nth-child(4) a::before{background: url(../images/ico_tabwrap04.png) center no-repeat; background-size: 60px;}
+.tab_wrap ul li:nth-child(5) a::before{background: url(../images/ico_tabwrap05.png) center no-repeat; background-size: 60px;}
+.tab_wrap ul li a .grp_badge{display: flex;align-items: center;gap: 6px;margin-top: 10px;}
+.tab_wrap ul li a .grp_badge .badge{display: flex;align-items: center;justify-content: center;padding:10px;height: 38px;border-radius: 30px;border:1px solid #2962F6;color:#2962F6;box-sizing: border-box;font-size: 13px;font-weight: 700;}
+.tab_wrap ul li a p.tit{margin-top: 10px;font-size: 15px;font-weight: 600;line-height: 140%;text-align: center;}
+.tab_wrap ul li.on a{border: 3px solid #2962F6;color:#2962F6;font-weight: 700;}
+.tab_wrap ul li.on a .grp_badge .badge{background: #2962F6;color:#fff}
+
+.cont_wrap{padding-top: 50px;}
+.cont_wrap .box_text h2{font-size: 32px;line-height: 130%;margin-bottom: 20px;}
+.cont_wrap .box_text p{font-size: 18px;font-weight: 500;line-height: 140%;color:#868E96}
+.cont_wrap .box_text p+p{margin-top: 30px;}
+.cont_wrap .box_layout{gap: 104px;}
+.cont_wrap .box_layout .box_form{position: relative;flex:none;width: 376px;padding:0 30px;}
+.cont_wrap .box_layout .box_form:before{content: '';position: absolute;left:-52px;top:0;border-left: 1px solid #E9ECEF;height: 100%;}
+
+
 
 /* 반응형 - 태블릿 */
 @media screen and (max-width: 1280px) and (min-width: 962px) {
